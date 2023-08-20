@@ -1,0 +1,441 @@
+
+##################
+#######0.20#######
+##################
+
+==Bugs Arreglados==
+
+==Made Ideas==
+
+Nuevos grupos de culturas como belga, portugués, sueco, etc. Esto para intentar que los países tiendan más a unificarse.
+
+Nueva música de título
+
+2549 para Amazonia
+
+Nuevo Formable, Tawantinsuyu, con Cuzco
+Nuevo Formable, Imperio Azteca, con Aztlan
+
+--Nuevos Países--
+Fragmentar Peru:
+	Antofagasta: 2305 2307-2309 2578 
+	Arequipa: 2297 2299 2304
+	Cajamarca: 2290-2292 2294 
+	Cuzco: 2300-2303
+	Lima: 2293 2295-2296 2298
+Fragmentar Bolivia:
+	Chaco: 2337-2338 2366-2367
+	La Paz: 2310-2311 2319-2321 
+	Potosi: 2312-2315 2370
+	Santa Cruz: 2316-2318
+
+
+##################
+#######0.19#######
+##################
+
+
+==Bugs Arreglados==
+
+==Ideas Hechas==
+
+Nombres de Gobiernos:
+	Democracy => Democratic Republic
+	HM'S Government => Constitutional Monarchy
+	Presidential Dictatorship => Authoritarian Republic
+	Prussian Constitutionalism => Semi-Constitutional Monarchy
+	Bourgeois Dictatorship => Libertarian Anarchy
+
+
+--Nuevos Paises--
+Fragmentar Brasil:
+Bahia: 2436-2440
+Goias: 2421-2423
+Maranhao: 2424-2427
+Mato Grosso: 2416-2419 2550
+Minas Gerais: 2441-2446
+Para: 2402 2405 2408 2410-2415 2600
+Parana: 2457-2462
+Pernambuco: 2428-2435
+Rio de Janeiro: 2447-2449
+Rio Grande do Sul: 2463-2467
+Sao Paulo: 2306 2450-2456
+
+--Decisiones--
+	-Formar Suecia
+	-Formar Finlandia
+	-Formar Brasil
+	
+
+##################
+#######0.18#######
+##################
+
+==Bugs Arreglados==
+
+==Ideas Hechas==
+
+--Paises Liberados--
+Costa Rica: 2201~2203
+El Salvador: 2191~2192
+Guatemala: 2186~2189
+Honduras: 2193~2196
+Nicaragua: 2197~2200
+Panama: 1723 2204~2208
+
+--Nuevos Paises----
+Fragmentar Ecuador:
+Guayaquil: 2280~2281
+Loreto: 2286~2289
+Quito: 2279 2282~2284
+
+Fragmentar Colombia:
+Amazonia: 2260~2261 2263 2278 2401 2403~2405 2407 2532 
+Antioquia: 2251~2252 2254~2255
+Cauca: 2253 2256~2259
+Cundinamarca: 2247~2250 2262
+
+Fragmentar Venezuela:
+Bolivar: 2274~2275 2277
+Cumana: 2267 2269 2276
+Miranda: 2264~2266 2268
+Zulia: 2234~2235 2270~2273
+
+
+--Decisiones--
+	-Formar Mexico
+	-Formar Colombia
+	-Formar Venezuela
+
+
+##################
+#######0.17#######
+##################
+
+
+==Bugs Arreglados==
+Bug con las potencias iniciales
+
+==Ideas Hechas==
+
+--Nuevos Paises--
+Fragmentar Mexico:
+Aztlan: 2162 2164 2172 2175~2177
+Baja California: 102 2137~2141 
+California: 84~90
+Chiapas: 2181 2182
+Chihuahua: 2142~2145
+Deseret: 94~101 107 108
+Durango: 2153~2157 2161
+Guerrero: 2170 2171 2174 2178~2180
+Jalisco: 2160 2166 2168 2169
+New Mexico: 103~105 136
+Rio Grande: 2146~2152 2163
+Yucatán: 2165 2183~2185
+Zacatecas: 2155 2158 2159 2167 2173
+
+--Provincias--
+106 109 para Ozark
+135 138 para Texas
+
+Rehacer la decision de unificación de USA, ahora hay cores y funciona bien
+Rehacer la decision de unificación de CSA, ahora no necesitas ningun pais en la esfera, solo ser potencia mundial.
+
+##################
+#######0.16#######
+##################
+
+
+==Bugs Arreglados==
+Bug con las decisiones de unificación(Si tenías títeres o esferas, se convertían en otros paises que necesitabas conquistar)
+
+==Ideas Hechas==
+
+--Nuevos Paises--
+Fragment USA:
+Appalachia: 184 185 186 187 188 189 190 191 +
+Carolina: 205 206 207 208 209 210 2556 +
+Dakota: 117 118 119 120 121 122 155 156 157 158 +
+Dixie Confederacy: 192 193 194 195 196 197 201 202 204 2555 +
+Florida: 198 199 200 +
+Great Lakes: 159 160 161 162 163 164 165 166 167 168 173 174 175 176 177 +
+Maryland: 219 220 221 222 +
+Nebraska: 123 124 125 151 152 153 154 +
+New Alberta: 91 92 93 110 111 112 113 114 115 116 +
+New England: 241 242 243 244 245 246 247 248 249 250 +
+New Orleans: 139 140 141 142  
+New York: 232 233 234 235 236 237 238 239 240
+Ohio: 169 170 171 172 178 179 180 181 182 183
+Ozark: 126 127 128 129 130 131 143 144 145 146 147 148 149 150
+Pensilvania: 223 224 225 226 227 228 229 230 231
+Virginia: 211 212 213 214 215 216 217 218
+
+--Decisions--
+	-Formar USA
+	-Formar CSA
+	-Aceptar a los Afroamericanos(Todos los paises dixie)
+	
+--Cambios de Balance--
+Infamia Conquista Pequeña5 => 7.5
+Infamia Conquista Mediana 10 => 12.5
+Infamia Conquista 5(Esto era un error) => 20
+	
+Decrecimiento de la Infamia(Por Mes):	
+	Paz 0.10 => 0.15
+	En Guerra 0.033 => 0.05
+	
+Infamia cuando liberas un país -5 => -2
+	
+IA:
+	Agresividad Base 5 => 15
+	Agresividad Incivilizado contra otros incivilizados 15 => 20
+	
+	
+##################
+#######0.15#######
+##################
+
+
+==Bugs Arreglados==
+Kongo con provincias en Africa Occidental: 1894 1897 1898 1899
+Cultura Muladi removida
+
+==Ideas Hechas==
+Rehacer banderas españolas
+
+--Nuevos Paises--
+Fragmentar Egipto:
+Alejandria: 1751 1752 1753 1754 1759 
+Cairo: 1745 1746 1747 1748 1750
+Giza: 1760 1762 1763 1764 1765 1772 2559
+Luxor: 1761 1767 1769 1770
+Makuria 1766 1768 1771 1833 1834 1835 1836
+Sennar 1827 1828 1829 1830 1837
+
+
+Fragmentar Sokoto:
+Borgu: 1927 1938 1940
+Gobir: 1946 1948
+Jukun: 1937 1944 1950
+Katsina: 1942 1945 1947 1949
+Nupe: 1939 1941 1943
+
+	
+--Provincias--
+
+1749 pata Sinai
+1831 y 1832 para Shilluk
+1838 y 1840 Descolonizar
+1849 para Tigray
+1874 para Warsangali
+
+--Decisiones--
+	-Formar Egipto
+	-Formar Sokoto
+	
+	
+#################
+#####Pre0.14#####
+#################
+
+==Bugs Arreglados==
+
+--Provincias--
+Remplazar Piemonte-Cerdeña por Saboya
+Corregir los tags en Damagaram(DAM => DMG)
+Quitarle la isla de Cocos a Fujian
+
+Paises sin gobierno(nogovernment):
+	-Kumul Khanate
+	-Marrakech
+	-Shangdong
+	-Shikoku(Tosa)
+	-Sichuan
+	-Yonezawa
+	-Zhejiang
+	-Zhili
+
+Paises sin "rulling party":
+	-Abkhazia
+	-Algarve
+	-Altai Union
+	-Angoche
+	-Aragon
+	-Ardennes
+	-Aro
+	-Ashanti
+	-Assam
+	-Astrakhan
+	-Aussa
+	-Auvergne
+	-Azores
+	-Baluchistan
+	-Basotho
+	-Bengal
+	-Benin
+	-Bihar
+	-Burgundy
+	-Calabar 
+	-Cannary Islands
+	-Chechnya
+	-Chitral
+	-Circassia
+	-Corsica
+	-Cornwall
+	-Cyrenaica
+	-Dagestan
+	-Dahomey
+	-Damagaram
+	-Dendi
+	-Douro
+	-East Anglia
+	-Elsass
+	-Fujian
+	-Galicia-Lodomeria
+	-Geledi
+	-Gonder
+	-Guangdong
+	-Guyana
+	-Harar
+	-Hunan
+	-Jallon
+	-Jamaica
+	-Jambi
+	-Kaffa
+	-Kalimantan
+	-Kanem-Bornu
+	-Karnatak
+	-Khuzaestan
+	-Kongo
+	-Kumul Khanate
+	-Kutai
+	-Kuwait
+	-Lan Xang
+	-Lebanon
+	-Liverpool
+	-Loango
+	-Lorraine
+	-Luristan
+	-Macedonia
+	-Madeira
+	-Maharashtra
+	-Majeerteen
+	-Midlands
+	-Moldova
+	-Pahang
+	-Panjab	
+	-Perak
+	-Pomerania
+	-Pontianak
+	-Puerto Rico
+	-Rhineland
+	-Romagna
+	-Sami Union
+	-Sardinia
+	-Savoy
+	-Schleswig-Holstein
+	-Selangor
+	-Shilluk
+	-Shewa
+	-Siak 
+	-Sichuan
+	-Silesia
+	-Sonderbund
+	-South Tirol
+	-Sri Lanka(Ceylon)
+	-Sulawesi(Bone)
+	-Sulu
+	-Tigray
+	-Timor(Wehali)
+	-Trarza
+	-Transamur
+	-Trinidad
+	-Vojvodina
+	-Wales
+	-Warsangali
+	-Wessex
+	-Westfalen
+	-Yonezawa
+	-Yorkshire
+
+Paises sin Tecnologías y/o prestigio:
+	-Albania
+	-Armenia
+	-Banat Republic
+	-Basque Country
+	-Belarus
+	-Bohemia-Moravia
+	-Bosnia-Herzagovina
+	-Britanny
+	-Bukovina
+	-Bulgaria
+	-Catalonia
+	-Crete
+	-Croacia
+	-Cuba
+	-Cyprus
+	-Danzig
+	-Dominican Republic
+	-Estonia 
+	-Flanders
+	-Golden State
+	-Guatemala
+	-Helsinki
+	-Hungary
+	-Iceland
+	-Ireland
+	-Israel
+	-Latvia
+	-Lituania
+	-Lombardia
+	-Maritime Union
+	-Newfoundland
+	-New South Wales
+	-New Zeland
+	-Ontario
+	-Ostlandet
+	-Quebec
+	-Queensland
+	-Rupert's Land
+	-Ruthenia
+	-Sami Union
+	-Scotland
+	-Siebenburgen
+	-Slovakia
+	-Slovenia
+	-South Africa
+	-Turku
+	-Venice
+	-Vestlandet
+	-Victoria
+	-Wallonia
+	
+	
+==Ideas Hechas==
+Eliminar la fecha de 1861
+Incluidos algunos eventos y decisiones vanilla que estaban deshabilitados
+
+--Decisiones--
+Cambio de titulo para la decision de unificación de Portugal: "Pela nossa terra!"
+Reacer Imágenes:
+	-Unificación Bélgica
+	-Unificación Canadá
+	-Unificación España
+	-Unificación Francia
+	-Unificación Inglaterra	
+	-Unificación Noruega	
+	-Unificación Países Bajos	
+	-Unificación Persia
+	-Unificación Portugal
+	-Unificación Turquía
+	-Unificación Ucrania
+	-Unificación Unión Celta 
+	
+	
+-Hacer Imagenes para:
+	-Reclamar Galicia(Union Celta)
+	-Reclamar Bretaña(Union Celta)
+	-Reclamar Cornualles(Union Celta)
+
+--Provincias--
+Provincia de Perpignan para Cataluña

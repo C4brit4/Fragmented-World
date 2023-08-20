@@ -1,0 +1,11 @@
+owner = ZHE
+controller = ZHE
+add_core = ZHE
+add_core = CHI
+trade_goods = silk
+life_rating = 32
+1861.1.1 = {
+    owner = TPG
+    controller = TPG
+    add_core = TPG
+}

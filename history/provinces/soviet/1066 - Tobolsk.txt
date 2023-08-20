@@ -1,0 +1,8 @@
+owner = OMS
+controller = OMS
+add_core = URA
+trade_goods = timber
+life_rating = 35
+
+
+add_core = OMS

@@ -1,0 +1,7 @@
+owner = BGH
+controller = BGH
+add_core = BGH
+add_core = IRQ
+trade_goods = grain
+life_rating = 35
+terrain = steppe

@@ -1,0 +1,8 @@
+owner = SNA
+controller = SNA
+add_core = SNA
+add_core = EGY
+trade_goods = fruit
+life_rating = 20
+terrain = semidesert
+#terrain = coastal_desert

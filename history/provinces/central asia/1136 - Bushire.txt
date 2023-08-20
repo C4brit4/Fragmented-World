@@ -1,0 +1,8 @@
+owner = KHU
+controller = KHU
+add_core = KHU
+add_core = PER
+trade_goods = fish
+life_rating = 35
+naval_base = 1
+terrain = semidesert

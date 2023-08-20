@@ -1,0 +1,87 @@
+political_decisions = {
+
+	form_usa = {
+	picture = form_usa
+		potential = {
+			has_country_flag = usa_member
+        }	
+		
+		allow = {
+			prestige = 25
+			war = no
+			is_vassal = no
+			USA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			all_core = { remove_core = THIS }
+			change_tag = USA		
+			capital = 220
+			any_country = {
+				limit = {
+					has_country_flag = usa_member
+					OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					}
+				}
+				country_event = 11101
+			}			
+		}
+		
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	form_csa = {
+	picture = form_csa
+		potential = {
+			tag = DIX
+        }
+		
+		allow = {
+			prestige = 55
+			war = no
+			is_vassal = no
+			is_greater_power = yes
+		}
+		
+		effect = {
+			prestige = 25
+			all_core = { remove_core = THIS }
+			change_tag = CSA		
+			any_country = {
+				limit = {
+					primary_culture = dixie
+					OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+					}
+				}
+				country_event = 11101
+			}			
+		}
+		
+		ai_will_do = {
+            factor = 1
+        }
+	}
+}

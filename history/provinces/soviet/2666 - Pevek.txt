@@ -1,0 +1,9 @@
+owner = CHU
+controller = CHU
+
+add_core = KAM
+trade_goods = grain
+life_rating = 10
+
+add_core = KHA
+add_core = CHU

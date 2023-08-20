@@ -1,0 +1,6 @@
+owner = HNO
+controller = HNO
+add_core = HNO
+add_core = DAI
+trade_goods = grain
+life_rating = 33

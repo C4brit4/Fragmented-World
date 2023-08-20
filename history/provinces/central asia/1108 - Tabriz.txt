@@ -1,0 +1,7 @@
+owner = TAB
+controller = TAB
+add_core = TAB
+add_core = AZB
+add_core = PER
+trade_goods = coal
+life_rating = 35

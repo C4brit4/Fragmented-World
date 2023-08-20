@@ -1,0 +1,442 @@
+
+##################
+#######1.0########
+##################
+
+==Bugs Fixed==
+
+==Made Ideas==
+
+==Bugs To Fix==
+
+==Ideas To do==
+
+--New Countries--
+
+2366-2367 to Chaco
+
+Fragment Argentina:
+	Buenos Aires: 2345-2346 2348-2355
+	Cordoba: 2379-2381 2383 2385-2389
+	Corrientes: 2354 2356-2358
+	Entre Rios: 2359-2360
+	La Pampa: 2382 2384 2390 2393 2395
+	Patagonia: 2332-2335 2391-2392 2394 2396-2400
+	Salta: 2315 2368-2378
+	Santa Fe: 2361-2363
+	
+Fragment Chile:
+	Araucania: 2327-2331
+	Easter Island: 2336
+	Santiago: 2322-2326
+	
+Fragment Uruguay:
+	Montevideo: 2344 2347
+
+Other:
+	South Athlantic Federation: 2131 2133
+
+
+##################
+#######0.20#######
+##################
+
+==Bugs Fixed==
+
+==Made Ideas==
+
+New culture groups like belgian, portuguese, swedish, etc. This to try that the countries tend more to unify
+
+New Title Music
+
+2549 to Amazonia
+
+New Formable, Tawantinsuyu, with Cuzco
+New Formable, Aztec Empire, with Aztlan
+
+--New Countries--
+Fragment Peru:
+	Antofagasta: 2305 2307-2309 2578 
+	Arequipa: 2297 2299 2304
+	Cajamarca: 2290-2292 2294 
+	Cuzco: 2300-2303
+	Lima: 2293 2295-2296 2298
+Fragment Bolivia:
+	Chaco: 2337-2338 2366-2367
+	La Paz: 2310-2311 2319-2321 
+	Potosi: 2312-2315 2370
+	Santa Cruz: 2316-2318
+	
+	
+##################
+#######0.19#######
+##################
+
+
+==Bugs Fixed==
+
+==Made Ideas==
+
+Goverments Names:
+	Democracy => Democratic Republic
+	HM'S Government => Constitutional Monarchy
+	Presidential Dictatorship => Authoritarian Republic
+	Prussian Constitutionalism => Semi-Constitutional Monarchy
+	Bourgeois Dictatorship => Libertarian Anarchy
+
+
+--New Countries--
+Fragment Brazil:
+Bahia: 2436-2440
+Goias: 2421-2423
+Maranhao: 2424-2427
+Mato Grosso: 2416-2419 2550
+Minas Gerais: 2441-2446
+Para: 2402 2405 2408 2410-2415 2600
+Parana: 2457-2462
+Pernambuco: 2428-2435
+Rio de Janeiro: 2447-2449
+Rio Grande do Sul: 2463-2467
+Sao Paulo: 2306 2450-2456
+
+--Decisions--
+	-Form Sweden
+	-Form Finland
+	-Form Brazil
+
+##################
+#######0.18#######
+##################
+
+==Bugs Fixed==
+
+==Made Ideas==
+
+--Liberate Countries--
+Costa Rica: 2201~2203
+El Salvador: 2191~2192
+Guatemala: 2186~2189
+Honduras: 2193~2196
+Nicaragua: 2197~2200
+Panama: 1723 2204~2208
+
+--New Countries--
+Fragment Ecuador:
+Guayaquil: 2280~2281
+Loreto: 2286~2289
+Quito: 2279 2282~2284
+
+Fragment Colombia:
+Amazonia: 2260~2261 2263 2278 2401 2403~2405 2407 2532 
+Antioquia: 2251~2252 2254~2255
+Cauca: 2253 2256~2259
+Cundinamarca: 2247~2250 2262
+
+Fragment Venezuela:
+Bolivar: 2274~2275 2277
+Cumana: 2267 2269 2276
+Miranda: 2264~2266 2268
+Zulia: 2234~2235 2270~2273
+
+
+--Decisions--
+	-Form Mexico
+	-Form Colombia
+	-Form Venezuela
+
+##################
+#######0.17#######
+##################
+
+
+==Bugs Fixed==
+Bug with the starter great powers
+
+==Made Ideas==
+
+--New Countries--
+Fragment Mexico:
+Aztlan: 2162 2164 2172 2175~2177
+Baja California: 102 2137~2141 
+California: 84~90
+Chiapas: 2181 2182
+Chihuahua: 2142~2145
+Deseret: 94~101 107 108
+Durango: 2153~2157 2161
+Guerrero: 2170 2171 2174 2178~2180
+Jalisco: 2160 2166 2168 2169
+New Mexico: 103~105 136
+Rio Grande: 2146~2152 2163
+Yucatán: 2165 2183~2185
+Zacatecas: 2155 2158 2159 2167 2173
+
+--Provinces--
+106 109 to Ozark
+135 138 to Texas
+
+Remade the unification decision of USA, now it has cores and works properly
+Remade the unification decision of CSA, now you haven't to have any country on sphere, only need to be a great power
+
+
+##################
+#######0.16#######
+##################
+
+
+==Bugs Fixed==
+Bug with the Unification Decisions(If you had pupets or spheres, it will convert in other country that you need to conquest)
+
+==Made Ideas==
+
+--New Countries--
+Fragment USA:
+Appalachia: 184 185 186 187 188 189 190 191 +
+Carolina: 205 206 207 208 209 210 2556 +
+Dakota: 117 118 119 120 121 122 155 156 157 158 +
+Dixie Confederacy: 192 193 194 195 196 197 201 202 204 2555 +
+Florida: 198 199 200 +
+Great Lakes: 159 160 161 162 163 164 165 166 167 168 173 174 175 176 177 +
+Maryland: 219 220 221 222 +
+Nebraska: 123 124 125 151 152 153 154 +
+New Alberta: 91 92 93 110 111 112 113 114 115 116 +
+New England: 241 242 243 244 245 246 247 248 249 250 +
+New Orleans: 139 140 141 142  
+New York: 232 233 234 235 236 237 238 239 240
+Ohio: 169 170 171 172 178 179 180 181 182 183
+Ozark: 126 127 128 129 130 131 143 144 145 146 147 148 149 150
+Pensilvania: 223 224 225 226 227 228 229 230 231
+Virginia: 211 212 213 214 215 216 217 218
+
+--Decisions--
+	-Form USA
+	-Form CSA
+	-Accept the Afro-Americans(All dixie countries)
+	
+--Balance Changes--
+Infamy Conquest Tiny 5 => 7.5
+Infamy Conquest Medium 10 => 12.5
+Infamy Conquest 5(This was an error) => 20
+	
+Infamy Decrease(Per Month):	
+	Peace 0.10 => 0.15
+	At War 0.033 => 0.05
+	
+Infamy when release a country -5 => -2
+	
+AI:
+	Aggressiveness Base 5 => 15
+	Aggressiveness Unciv against other Uncivs 15 => 20
+
+	
+##################
+#######0.15#######
+##################
+
+
+==Bugs Fixed==
+Kongo with provinces on West-Africa 1894 1897 1898 1899
+Muladi culture removed
+
+==Made Ideas==
+Remake Spanish Flags
+
+--New Countries--
+Fragment Egypt:
+Alejandria: 1751 1752 1753 1754 1759 
+Cairo: 1745 1746 1747 1748 1750
+Giza: 1760 1762 1763 1764 1765 1772 2559
+Luxor: 1761 1767 1769 1770
+Makuria 1766 1768 1771 1833 1834 1835 1836
+Sennar 1827 1828 1829 1830 1837
+
+
+Fragment Sokoto:
+Borgu: 1927 1938 1940
+Gobir: 1946 1948
+Jukun: 1937 1944 1950
+Katsina: 1942 1945 1947 1949
+Nupe: 1939 1941 1943
+
+	
+--Provinces--
+
+1749 to Sinai
+1831 and 1832 to Shilluk
+1838 and 1840 Decolonized
+1849 to Tigray
+1874 to Warsangali
+
+--Decisions--
+	-Form Egypt
+	-Form Sokoto	
+
+
+##################
+#######0.14#######
+##################
+
+
+==Fixed Bugs==
+
+--Provinces--
+Replace Sardinia-Piedmont by Savoy
+Correct the tags in Damagaram(DAM => DMG)
+Take away Fujian the Cocos island
+
+Countries without government(nogovernment):
+	-Kumul Khanate
+	-Marrakech
+	-Shangdong
+	-Shikoku(Tosa)
+	-Sichuan
+	-Yonezawa
+	-Zhejiang
+	-Zhili
+
+Countries without "rulling party":
+	-Abkhazia
+	-Algarve
+	-Altai Union
+	-Angoche
+	-Aragon
+	-Ardennes
+	-Aro
+	-Ashanti
+	-Assam
+	-Astrakhan
+	-Aussa
+	-Auvergne
+	-Azores
+	-Baluchistan
+	-Basotho
+	-Bengal
+	-Benin
+	-Bihar
+	-Burgundy
+	-Calabar 
+	-Cannary Islands
+	-Chechnya
+	-Chitral
+	-Circassia
+	-Corsica
+	-Cornwall
+	-Dagestan
+	-Dahomey
+	-Damagaram
+	-Dendi
+	-East Anglia
+	-Elsass
+	-Fujian
+	-Galicia-Lodomeria
+	-Geledi
+	-Gonder
+	-Guangdong
+	-Guyana
+	-Harar
+	-Hunan
+	-Jallon
+	-Jamaica
+	-Jambi
+	-Kaffa
+	-Kalimantan
+	-Kanem-Bornu
+	-Karnatak
+	-Khuzaestan
+	-Kongo
+	-Kumul Khanate
+	-Kutai
+	-Kuwait
+	-Lan Xang
+	-Lebanon
+	-Liverpool
+	-Loango
+	-Lorraine
+	-Luristan
+	-Madeira
+	-Maharashtra
+	-Majeerteen
+	-Midlands
+	-Moldova
+	-Pahang
+	-Panjab	
+	
+Coutries without Technologies and/or prestige:
+	-Albania
+	-Armenia
+	-Banat Republic
+	-Basque Country
+	-Belarus
+	-Bohemia-Moravia
+	-Bosnia-Herzagovina
+	-Britanny
+	-Bukovina
+	-Bulgaria
+	-Catalonia
+	-Crete
+	-Croacia
+	-Cuba
+	-Cyprus
+	-Danzig
+	-Dominican Republic
+	-Estonia 
+	-Flanders
+	-Golden State
+	-Guatemala
+	-Helsinki
+	-Hungary
+	-Iceland
+	-Ireland
+	-Israel
+	-Latvia
+	-Lituania
+	-Lombardia
+	-Maritime Union
+	-Newfoundland
+	-New South Wales
+	-New Zeland
+	-Ontario
+	-Ostlandet
+	-Quebec
+	-Queensland
+	-Rupert's Land
+	-Ruthenia
+	-Sami Union
+	-Scotland
+	-Siebenburgen
+	-Slovakia
+	-Slovenia
+	-South Africa
+	-Turku
+	-Venice
+	-Vestlandet
+	-Victoria
+	-Wallonia	
+	
+	
+==Made Ideas==
+Vanilla events and decisions included that was disabled 
+Removed the bookmark of 1861
+
+--Decisions--
+Title change by the decision of the unification of Portugal: "Pela nossa terra!"
+Remake Images:
+	-Belgium Unification
+	-Canada Unification
+	-Celtic Union Unification
+	-France Unification
+	-England Unification
+	-Netherlands Unification
+	-Norway Unification
+	-Persia Unification
+	-Portugal Unification
+	-Spain Unification
+	-Turkiye Unification
+	-Ukraine Unification
+	
+-Make Images by:
+	-Reclaim Galicia(Celtic Union)
+	-Reclamar Britanny(Celtic Union)
+	-Reclamar Cornwall(Celtic Union)
+
+--Provinces--
+Province of Perpignan by Cataluña

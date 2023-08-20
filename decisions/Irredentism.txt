@@ -1,0 +1,159 @@
+political_decisions = {
+
+    claim_glc = {
+	picture = reclaim_celtic_spain
+        potential = {
+            tag = CLT
+            NOT = { has_country_flag = GLC_claimed }
+			OR = {
+				AND = {
+					war = no
+					prestige = 75
+					is_vassal = no
+					NOT = {
+						in_sphere = SPA
+					}
+					is_disarmed = no
+					war_policy = jingoism
+					owns = 273
+					owns = 299
+					owns = 263
+					owns = 269
+					owns = 420
+				}
+				ai = no
+			}
+        }
+        allow = {
+            war = no
+            prestige = 75
+            is_vassal = no
+            NOT = {
+				in_sphere = SPA
+            }
+            is_disarmed = no
+            war_policy = jingoism
+            owns = 273
+            owns = 299
+            owns = 263
+            owns = 269
+            owns = 420
+        }
+        effect = {
+            badboy = 5
+            prestige = 10
+            set_country_flag = GLC_claimed
+            GLC = {
+                all_core = {
+                    add_core = CLT
+                }
+            }
+			ATU = {
+                all_core = {
+                    add_core = CLT
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+	claim_brt = {
+	picture = claim_brittany
+        potential = {
+            tag = CLT
+            NOT = { has_country_flag = BRT_claimed }
+			OR = {
+				AND = {
+					war = no
+					prestige = 50
+					is_vassal = no
+					NOT = {
+						in_sphere = FRA
+					}
+					is_disarmed = no
+					war_policy = jingoism
+					owns = 273
+					owns = 299
+					owns = 263
+					owns = 304
+					owns = 269
+				}
+				ai = no
+			}
+        }
+        allow = {
+            war = no
+            prestige = 50
+            is_vassal = no
+            NOT = {
+				in_sphere = FRA
+            }
+            is_disarmed = no
+            war_policy = jingoism
+            owns = 273
+            owns = 299
+            owns = 263
+            owns = 304
+            owns = 269
+        }
+        effect = {
+            badboy = 3
+            prestige = 10
+            set_country_flag = BRT_claimed
+            BRT = {
+                all_core = {
+                    add_core = CLT
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	claim_cornwall = {
+	picture = claim_cornwall
+        potential = {
+            tag = ENL
+            NOT = { has_country_flag = COR_claimed }
+			OR = {
+				AND = {
+					war = no
+					prestige = 30
+					is_vassal = no
+					NOT = {
+						in_sphere = FRA
+					}
+					is_disarmed = no
+					war_policy = jingoism
+				}
+				ai = no
+			}
+        }
+        allow = {
+            war = no
+            prestige = 30
+            is_vassal = no
+            NOT = {
+				in_sphere = FRA
+            }
+            is_disarmed = no
+            war_policy = jingoism
+        }
+        effect = {
+            badboy = 5
+            prestige = 10
+            set_country_flag = COR_claimed
+            COR = {
+                all_core = {
+                    add_core = ENL
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

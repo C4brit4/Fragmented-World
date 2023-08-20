@@ -1,0 +1,9 @@
+owner = ZAP
+controller = ZAP
+
+add_core = UKR
+trade_goods = coal
+life_rating = 35
+terrain = mining_district
+
+add_core = ZAP

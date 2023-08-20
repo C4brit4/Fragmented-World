@@ -1,0 +1,6 @@
+owner = TOM
+controller = TOM
+add_core = TOM
+trade_goods = grain
+life_rating = 35
+terrain = forest

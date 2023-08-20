@@ -1,0 +1,8 @@
+owner = GIZ
+controller = GIZ
+
+trade_goods = grain
+life_rating = 10
+terrain = desert
+
+add_core = GIZ

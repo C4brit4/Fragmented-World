@@ -1,0 +1,7 @@
+owner = CUZ
+controller = CUZ
+add_core = PEU
+trade_goods = wool
+life_rating = 30
+
+add_core = CUZ

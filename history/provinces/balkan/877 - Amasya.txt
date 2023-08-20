@@ -1,0 +1,6 @@
+owner = ANK
+controller = ANK
+add_core = ANK 
+add_core = TUR
+trade_goods = wool
+life_rating = 35

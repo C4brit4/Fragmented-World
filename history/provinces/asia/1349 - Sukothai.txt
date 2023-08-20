@@ -1,0 +1,8 @@
+owner = LAN
+controller = LAN
+
+add_core = SIA
+trade_goods = opium
+life_rating = 35
+
+add_core = LAN

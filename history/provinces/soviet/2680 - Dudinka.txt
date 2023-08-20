@@ -1,0 +1,10 @@
+owner = KRY
+controller = KRY
+
+add_core = SIB
+trade_goods = timber
+life_rating = 10
+colonial = 2
+
+add_core = SAJ
+add_core = KRY

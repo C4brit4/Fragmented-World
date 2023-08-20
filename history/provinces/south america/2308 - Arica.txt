@@ -1,0 +1,8 @@
+owner = ATF
+controller = ATF
+add_core = PEU
+add_core = CHL
+trade_goods = sulphur
+life_rating = 35
+
+add_core = ATF

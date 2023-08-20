@@ -1,0 +1,9 @@
+owner = DIY
+controller = DIY
+
+add_core = TUR
+add_core = KDS
+trade_goods = iron
+life_rating = 35
+
+add_core = DIY

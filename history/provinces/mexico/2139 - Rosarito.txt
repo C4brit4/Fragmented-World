@@ -1,0 +1,7 @@
+owner = BCA
+controller = BCA
+add_core = MEX
+trade_goods = fruit
+life_rating = 40
+
+add_core = BCA

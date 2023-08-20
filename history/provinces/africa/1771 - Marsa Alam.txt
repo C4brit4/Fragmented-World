@@ -1,0 +1,8 @@
+owner = MKU
+controller = MKU
+
+trade_goods = grain
+life_rating = 10
+
+
+add_core = MKU

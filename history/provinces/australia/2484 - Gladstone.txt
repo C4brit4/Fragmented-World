@@ -1,0 +1,7 @@
+owner = QEE
+controller = QEE
+add_core = QEE
+add_core = AST
+trade_goods = wool
+life_rating = 32
+colonial = 2

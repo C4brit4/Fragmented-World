@@ -1,0 +1,10 @@
+owner = IRK
+controller = IRK
+
+add_core = YAK
+trade_goods = coal
+life_rating = 20
+colonial = 2
+
+add_core = SAJ
+add_core = IRK

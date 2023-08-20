@@ -1,0 +1,7 @@
+owner = ALX
+controller = ALX
+
+trade_goods = grain
+life_rating = 10
+
+add_core = ALX

@@ -1,0 +1,6 @@
+owner = TEH
+controller = TEH
+add_core = TEH
+add_core = PER
+trade_goods = timber
+life_rating = 35

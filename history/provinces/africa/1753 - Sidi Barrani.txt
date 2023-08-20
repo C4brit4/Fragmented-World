@@ -1,0 +1,9 @@
+owner = ALX
+controller = ALX
+
+trade_goods = fruit
+life_rating = 35
+terrain = semidesert
+#terrain = coastal_desert
+
+add_core = ALX

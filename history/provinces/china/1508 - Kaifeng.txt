@@ -1,0 +1,6 @@
+owner = HEN
+controller = HEN
+add_core = HEN
+add_core = CHI
+trade_goods = tea
+life_rating = 32

@@ -1,0 +1,6 @@
+owner = GRN
+controller = GRN
+add_core = GRN
+trade_goods = silk
+life_rating = 32
+terrain = plains

@@ -1,0 +1,5 @@
+owner = AZO
+controller = AZO
+add_core = AZO
+trade_goods = fruit
+life_rating = 35

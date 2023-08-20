@@ -1,0 +1,9 @@
+owner = SNN
+controller = SNN
+
+
+trade_goods = fruit
+life_rating = 32
+terrain = semidesert
+
+add_core = SNN

@@ -1,0 +1,6 @@
+owner = SAJ
+controller = SAJ
+add_core = SAJ
+trade_goods = timber
+life_rating = 35
+terrain = forest

@@ -1,0 +1,9 @@
+owner = NRR
+controller = NRR
+
+add_core = SWE
+trade_goods = iron
+terrain = montane_tundra
+life_rating = 20
+
+add_core = NRR

@@ -1,0 +1,6 @@
+owner = AYU
+controller = AYU
+add_core = AYU
+add_core = SIA
+trade_goods = opium
+life_rating = 35

@@ -1,0 +1,7 @@
+owner = SHN
+controller = SHN
+add_core = SHN
+add_core = BUR
+
+trade_goods = opium
+life_rating = 35

@@ -1,0 +1,7 @@
+owner = THE
+controller = THE
+add_core = THE
+add_core = GRE
+trade_goods = fruit
+life_rating = 31
+terrain = small_island

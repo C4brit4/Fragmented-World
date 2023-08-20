@@ -1,0 +1,6 @@
+owner = THE
+controller = THE
+add_core = THE
+add_core = GRE
+trade_goods = grain
+life_rating = 35

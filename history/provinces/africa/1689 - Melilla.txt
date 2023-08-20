@@ -1,0 +1,7 @@
+owner = ALR
+controller = ALR
+add_core = ALR
+add_core = MOR
+trade_goods = fish
+terrain = urban
+life_rating = 35

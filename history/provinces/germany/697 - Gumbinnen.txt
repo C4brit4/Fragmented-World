@@ -1,0 +1,8 @@
+owner = DUC
+controller = DUC
+
+add_core = GER
+trade_goods = grain
+life_rating = 40
+
+add_core = DUC

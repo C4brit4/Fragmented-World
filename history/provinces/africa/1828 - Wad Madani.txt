@@ -1,0 +1,8 @@
+owner = SNN
+controller = SNN
+
+
+trade_goods = grain
+life_rating = 34
+
+add_core = SNN

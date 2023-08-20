@@ -1,0 +1,524 @@
+political_decisions = {
+	
+	form_mexico = {
+	picture = form_mexico
+		potential = {
+		    NOT = { exists = MEX }
+			NOT = { tag = ATZ }
+			primary_culture = mexican	
+        }	
+		
+		allow = {
+		    prestige = 15
+			war = no
+			is_vassal = no
+			state_n_government = 1
+			MEX = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}	
+		
+		effect = {
+			prestige = 25
+			all_core = { remove_core = THIS }
+			change_tag = MEX			
+			capital = 2172
+			any_country = {
+				limit = {
+					primary_culture = mexican        
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+
+
+	form_colombia = {
+	picture = form_colombia
+		potential = {
+		    NOT = { exists = CLM }
+			primary_culture = north_andean
+			OR = {
+				tag = ANT
+				tag = CAU
+				tag = CUN
+			}
+        }	
+		
+		allow = {
+		    prestige = 10
+			war = no
+			is_vassal = no
+			CLM = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}	
+		
+		effect = {
+			prestige = 20
+			all_core = { remove_core = THIS }
+			change_tag = CLM			
+			capital = 2247
+			any_country = {
+				limit = {
+					OR = {
+						tag = ANT
+						tag = CAU
+						tag = CUN
+					}      
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	form_venezuela = {
+	picture = form_venezuela
+		potential = {
+		    NOT = { exists = VNZ }
+			primary_culture = north_andean
+			OR = {
+				tag = BLV
+				tag = CUM
+				tag = MIR
+				tag = ZLI
+			}
+        }	
+		
+		allow = {
+		    prestige = 15
+			war = no
+			is_vassal = no
+			VNZ = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}	
+		
+		effect = {
+			prestige = 20
+			all_core = { remove_core = THIS }
+			change_tag = VNZ			
+			capital = 2264
+			any_country = {
+				limit = {
+					OR = {
+						tag = BLV
+						tag = CUM
+						tag = MIR
+						tag = ZLI
+					}    
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	form_brazil = {
+	picture = form_brazil
+	
+		potential = {
+		    NOT = { exists = BRZ }
+			primary_culture = brazilian
+        }	
+		
+		allow = {
+		    prestige = 25
+			war = no
+			is_vassal = no
+			state_n_government = 1			
+			BRZ = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}	
+		
+		effect = {
+			prestige = 20
+			all_core = { remove_core = THIS }
+			change_tag = BRZ		
+			capital = 2447
+			any_country = {
+				limit = {
+					primary_culture = brazilian
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	form_peru = {
+	picture = form_peru
+	
+		potential = {
+		    NOT = { exists = PEU }
+			OR = {
+			tag = ARE
+			tag = CAJ
+			tag = LIM
+			}
+        }	
+		
+		allow = {
+		    prestige = 15
+			war = no
+			is_vassal = no
+			PEU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}	
+		
+		effect = {
+			prestige = 10
+			all_core = { remove_core = THIS }
+			change_tag = PEU		
+			capital = 2295
+			any_country = {
+				limit = {
+					OR = {
+						tag = ARE
+						tag = CAJ
+						tag = CUZ
+						tag = LIM
+					}
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	form_bolivia = {
+	picture = form_bolivia
+	
+		potential = {
+		    NOT = { exists = BOL }
+			OR = {
+				tag = CHC
+				tag = PAZ
+				tag = POT
+				tag = SCR
+			}
+        }	
+		
+		allow = {
+		    prestige = 15
+			war = no
+			is_vassal = no
+			BOL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}	
+		
+		effect = {
+			prestige = 10
+			all_core = { remove_core = THIS }
+			change_tag = BOL	
+			capital = 2310
+			any_country = {
+				limit = {
+					OR = {
+						tag = CHC
+						tag = PAZ
+						tag = POT
+						tag = SCR
+					}
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	unite_peru_n_bolivia = {
+	picture = peru_bolivia_confederation
+	
+		potential = {
+		    NOT = { exists = PBC }
+			OR = {
+				tag = BOL
+				tag = PEU
+			}
+        }	
+		
+		allow = {
+		    prestige = 25
+			war = no
+			state_n_government = 1
+			PEU = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+			BOL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}	
+		
+		effect = {
+			prestige = 20
+			all_core = { remove_core = THIS }
+			change_tag = PBC
+			capital = 2295
+			any_country = {
+				limit = {
+					OR = {
+						tag = BOL
+						tag = PEU
+					}
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	
+		ai_will_do = {
+            factor = 1
+        }	
+	}
+	
+	establish_aztec = {
+	picture = aztec_empire	
+		potential = {
+		    NOT = { exists = AZC}
+			tag = ATZ
+		}	
+		
+		allow = {
+			prestige = 45
+			war = no
+			is_vassal = no
+			is_greater_power = yes
+			state_n_government = 1
+			OR = {
+                war_policy = jingoism
+                war_policy = pro_military
+            }		
+		}
+		
+		effect = {
+			prestige = 15
+			all_core = { remove_core = THIS }
+			badboy = 5
+			change_tag = AZC	
+			CHP = {
+                all_core = {
+                    add_core = AZC
+                }
+            }
+			GUE = {
+                all_core = {
+                    add_core = AZC
+                }
+            }
+			YUC = {
+                all_core = {
+                    add_core = AZC
+                }
+            }
+			ATZ = {
+                all_core = {
+                    add_core = AZC
+                }
+            }
+			
+		}
+		
+		ai_will_do = {
+            factor = 1
+        }		
+	}
+	
+	establish_tawantinsuyu ={
+	picture = tawantinsuyu
+
+		potential = {
+		    NOT = { exists = TAW}
+			tag = CUZ
+		}	
+
+		allow = {
+			prestige = 35
+			war = no
+			is_vassal = no
+			is_greater_power = yes
+			state_n_government = 1
+			OR = {
+                war_policy = jingoism
+                war_policy = pro_military
+            }
+		}
+		
+		effect = {
+			prestige = 15
+			all_core = { remove_core = THIS }
+			badboy = 5			
+			change_tag = TAW
+			LIM = {
+                all_core = {
+                    add_core = TAW
+                }
+            }
+			ARE = {
+                all_core = {
+                    add_core = TAW
+                }
+            }
+			CAJ = {
+                all_core = {
+                    add_core = TAW
+                }
+            }
+			ATF = {
+                all_core = {
+                    add_core = TAW
+                }
+            }
+			CUZ = {
+                all_core = {
+                    add_core = TAW
+                }
+            }			
+		}
+		
+		ai_will_do = {
+            factor = 1
+        }	
+	}
+}

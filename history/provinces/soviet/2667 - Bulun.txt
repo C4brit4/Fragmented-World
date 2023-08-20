@@ -1,0 +1,10 @@
+owner = SAJ
+controller = SAJ
+
+add_core = YAK
+trade_goods = timber
+terrain = montane_tundra
+life_rating = 10
+colonial = 2
+
+add_core = SAJ

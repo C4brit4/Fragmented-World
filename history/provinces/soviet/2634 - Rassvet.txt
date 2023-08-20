@@ -1,0 +1,8 @@
+owner = CHU
+controller = CHU
+add_core = KAM
+trade_goods = fish
+terrain = montane_tundra
+life_rating = 10
+
+add_core = CHU

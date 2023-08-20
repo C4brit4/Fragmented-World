@@ -1,0 +1,6 @@
+owner = CNN
+controller = CNN
+add_core = CNN
+trade_goods = fruit
+life_rating = 35
+naval_base = 1

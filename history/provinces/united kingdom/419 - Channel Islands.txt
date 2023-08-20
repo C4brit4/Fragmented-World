@@ -1,0 +1,7 @@
+owner = WSS
+controller = WSS
+add_core = WSS
+add_core = ENG
+trade_goods = fish
+life_rating = 35
+terrain = small_island

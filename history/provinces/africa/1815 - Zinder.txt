@@ -1,0 +1,9 @@
+owner = DMG
+controller = DMG
+
+add_core = DND
+trade_goods = cattle
+life_rating = 32
+terrain = semidesert
+
+add_core = DMG

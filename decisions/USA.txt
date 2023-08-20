@@ -1,0 +1,31 @@
+political_decisions = {
+	accept_the_afroamericans = {
+	picture = accept_afroamericans
+		potential = {
+			OR = {
+			primary_culture = dixie
+			primary_culture = texan
+			}
+			NOT = {accepted_culture = afro_american}
+		}
+		
+		allow = {
+			war = no
+			OR = {
+                citizenship_policy = full_citizenship
+                government = proletarian_dictatorship
+				invention = sociology
+            }
+			slavery = no_slavery
+		}
+		
+		effect = {
+			badboy = -4
+			add_accepted_culture = afro_american
+		}
+		
+		ai_will_do = {
+            factor = 1
+        }
+	}
+}

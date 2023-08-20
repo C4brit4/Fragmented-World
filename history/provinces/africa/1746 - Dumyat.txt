@@ -1,0 +1,7 @@
+owner = CAI
+controller = CAI
+
+trade_goods = grain
+life_rating = 40
+
+add_core = CAI

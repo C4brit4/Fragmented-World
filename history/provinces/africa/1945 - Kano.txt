@@ -1,0 +1,8 @@
+owner = KAT
+controller = KAT
+
+trade_goods = fruit
+terrain = semidesert
+life_rating = 35
+
+add_core = KAT

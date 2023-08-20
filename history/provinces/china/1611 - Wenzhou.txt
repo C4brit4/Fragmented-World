@@ -1,0 +1,6 @@
+owner = ZHE
+controller = ZHE
+add_core = ZHE
+add_core = CHI
+trade_goods = tea
+life_rating = 32

@@ -1,0 +1,9 @@
+owner = MKU
+controller = MKU
+
+
+trade_goods = fish
+life_rating = 31
+
+
+add_core = MKU

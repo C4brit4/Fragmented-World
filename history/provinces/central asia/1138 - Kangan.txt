@@ -1,0 +1,7 @@
+owner = FAR
+controller = FAR
+add_core = FAR
+add_core = PER
+trade_goods = fish
+life_rating = 35
+terrain = semidesert

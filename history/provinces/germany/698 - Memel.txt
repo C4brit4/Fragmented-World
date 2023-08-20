@@ -1,0 +1,9 @@
+owner = DUC
+controller = DUC
+
+add_core = GER
+add_core = LIT
+trade_goods = fish
+life_rating = 40
+
+add_core = DUC

@@ -1,0 +1,7 @@
+owner = DOU
+controller = DOU
+add_core = DOU
+add_core = ALG
+add_core = POR
+trade_goods = fruit
+life_rating = 35

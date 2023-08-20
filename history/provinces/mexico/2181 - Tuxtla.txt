@@ -1,0 +1,7 @@
+owner = CHP
+controller = CHP
+add_core = MEX
+trade_goods = cotton
+life_rating = 30
+
+add_core = CHP

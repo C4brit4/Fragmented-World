@@ -1,0 +1,8 @@
+owner = GOL
+controller = GOL
+add_core = GOL
+add_core = AST
+trade_goods = grain
+terrain = savanna
+life_rating = 31
+colonial = 2

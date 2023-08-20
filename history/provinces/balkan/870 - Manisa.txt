@@ -1,0 +1,6 @@
+owner = IZM
+controller = IZM
+add_core = IZM
+add_core = TUR
+trade_goods = grain
+life_rating = 35

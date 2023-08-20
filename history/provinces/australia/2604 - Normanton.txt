@@ -1,0 +1,8 @@
+owner = QEE
+controller = QEE
+add_core = QEE
+add_core = AST
+trade_goods = tropical_wood
+terrain = savanna
+life_rating = 31
+colonial = 2

@@ -1,0 +1,6 @@
+owner = SAJ
+controller = SAJ
+add_core = SAJ
+add_core = SIB
+trade_goods = grain
+life_rating = 15

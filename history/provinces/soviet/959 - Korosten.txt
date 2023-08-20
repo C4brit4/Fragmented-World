@@ -1,0 +1,6 @@
+owner = HET
+controller = HET
+add_core = HET
+add_core = UKR
+trade_goods = grain
+life_rating = 15

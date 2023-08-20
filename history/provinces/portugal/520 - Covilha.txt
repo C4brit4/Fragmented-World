@@ -1,0 +1,6 @@
+owner = DOU
+controller = DOU
+add_core = DOU
+add_core = POR
+trade_goods = wool
+life_rating = 35

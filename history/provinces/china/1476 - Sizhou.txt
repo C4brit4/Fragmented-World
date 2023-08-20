@@ -1,0 +1,6 @@
+owner = JGS
+controller = JGS
+add_core = JGS
+add_core = CHI
+trade_goods = tea
+life_rating = 32

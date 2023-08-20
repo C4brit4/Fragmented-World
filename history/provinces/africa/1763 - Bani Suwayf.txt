@@ -1,0 +1,8 @@
+owner = GIZ
+controller = GIZ
+
+trade_goods = grain
+life_rating = 40
+terrain = farmlands
+
+add_core = GIZ

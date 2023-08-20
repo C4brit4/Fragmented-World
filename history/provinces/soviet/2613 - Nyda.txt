@@ -1,0 +1,8 @@
+owner = YAN
+controller = YAN
+add_core = URA
+trade_goods = timber
+terrain = boreal
+life_rating = 10
+
+add_core = YAN

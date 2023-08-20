@@ -1,0 +1,7 @@
+owner = BSR
+controller = BSR
+add_core = BSR
+add_core = IRQ
+trade_goods = fruit
+life_rating = 35
+colonial = 2

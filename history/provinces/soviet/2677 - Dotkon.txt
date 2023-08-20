@@ -1,0 +1,10 @@
+owner = IRK
+controller = IRK
+
+add_core = SIB
+trade_goods = coal
+life_rating = 35
+colonial = 2
+
+
+add_core = IRK

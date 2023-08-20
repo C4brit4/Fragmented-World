@@ -1,0 +1,8 @@
+owner = ATF
+controller = ATF
+add_core = BOL
+add_core = CHL
+trade_goods = wool
+life_rating = 35
+
+add_core = ATF

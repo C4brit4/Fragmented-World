@@ -1,0 +1,8 @@
+owner = GOB
+controller = GOB
+
+trade_goods = cattle
+terrain = semidesert
+life_rating = 35
+
+add_core = GOB

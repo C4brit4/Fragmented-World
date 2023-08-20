@@ -1,0 +1,7 @@
+owner = MNH
+controller = MNH
+add_core = BRZ
+trade_goods = cotton
+life_rating = 35
+
+add_core = MNH

@@ -1,0 +1,6 @@
+owner = TAB 
+controller = TAB
+add_core = TAB
+add_core = PER
+trade_goods = cattle
+life_rating = 35

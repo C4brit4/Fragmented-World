@@ -1,0 +1,6 @@
+owner = MSC
+controller = MSC
+add_core = MSC
+add_core = OMA
+trade_goods = grain
+life_rating = 20

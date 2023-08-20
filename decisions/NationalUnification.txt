@@ -1,0 +1,1342 @@
+political_decisions = {
+
+	form_south_german_confederation = {
+		potential = {
+			is_greater_power = yes
+			primary_culture = south_german
+			NOT = {
+				exists = SGF
+				exists = GER
+				tag = AUS
+				tag = KUK
+			}
+		}	
+		allow = {
+			war = no
+			GER = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							province_id = 370
+							province_id = 371
+							province_id = 410
+							province_id = 409
+							province_id = 412
+							owner = {
+								in_sphere = THIS
+							}
+						}
+						NOT = {
+							culture = south_german
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			any_country = {
+				limit = {
+					primary_culture = south_german
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = GER
+				}
+				add_core = SGF
+			}
+			change_tag = SGF
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	form_north_german_confederation = {
+		potential = {
+			is_greater_power = yes
+			primary_culture = north_german
+			NOT = {
+				exists = GER
+				exists = NGF
+			}
+		}	
+		allow = {
+			war = no
+			GER = {
+				all_core = {
+					OR = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+							}
+						}
+						NOT = {
+							culture = north_german
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 15
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = north_german
+						tag = SCH 
+					}
+					in_sphere = THIS
+					NOT = {
+						tag = THIS
+					}
+				}
+				annex_to = THIS
+			}
+			any_owned = {
+				limit = {
+					is_core = GER
+				}
+				add_core = NGF
+			}			
+			change_tag = NGF
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+		
+	form_germany = {
+		news = yes
+		news_desc_long = "form_germany_NEWS_LONG"
+		news_desc_medium = "form_germany_NEWS_MEDIUM"
+		news_desc_short = "form_germany_NEWS_SHORT"
+		potential = {
+			is_culture_group = germanic
+			NOT = {
+				exists = GER
+				tag = ISR
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			GER = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = GER
+			add_accepted_culture = north_german
+			add_accepted_culture = south_german
+			any_country = {
+				limit = {
+					is_culture_group = germanic
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_italy = {
+		news = yes
+		news_desc_long = "form_italy_NEWS_LONG"
+		news_desc_medium = "form_italy_NEWS_MEDIUM"
+		news_desc_short = "form_italy_NEWS_SHORT"
+		potential = {
+			is_culture_group = italian
+			
+			NOT = {
+				exists = ITA
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			ITA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = ITA
+			capital = 749
+			add_accepted_culture = north_italian
+			add_accepted_culture = south_italian
+			any_country = {
+				limit = {
+					is_culture_group = italian
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_scandinavia = {
+		news = yes
+		news_desc_long = "form_scandinavia_NEWS_LONG"
+		news_desc_medium = "form_scandinavia_NEWS_MEDIUM"
+		news_desc_short = "form_scandinavia_NEWS_SHORT"
+		potential = {
+			OR = {
+				is_culture_group = scandinavian
+				is_culture_group = bears
+			}
+			NOT = {
+				exists = SCA
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			SCA = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = SCA
+			add_accepted_culture = swedish
+			add_accepted_culture = danish
+			add_accepted_culture = norwegian
+			add_accepted_culture = finnish
+			add_accepted_culture = icelandic
+			add_accepted_culture = sami
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = scandinavian
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_gran_colombia = {
+		potential = {
+			OR = {
+				tag = ECU
+				tag = CLM
+				tag = VNZ
+			}
+			NOT = {
+				exists = GCO
+			}
+		}	
+		allow = {
+			war = no
+			is_greater_power = yes
+			GCO = {
+				all_core = {
+					owner = {
+						OR = {
+							tag = THIS
+							in_sphere = THIS
+							vassal_of = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			any_country = {
+				limit = {
+					vassal_of = THIS
+				}
+				annex_to = THIS
+			}
+			any_country = {
+				limit = {
+					in_sphere = THIS
+				}
+				
+				any_owned = {
+					limit = {
+						is_core = GCO
+					}
+					secede_province = THIS
+				}
+
+			}
+			
+			2242 = { add_core = GCO } # Mahdia, prev VNZ core
+			
+			# some early claims we can roll with for future colombian lebensraum
+			2200 = { add_core = GCO }
+			2201 = { add_core = GCO }
+			2202 = { add_core = GCO }
+			2203 = { add_core = GCO }
+
+			change_tag = GCO
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	form_yugoslavia = {
+		potential = {
+			is_culture_group = south_slavic
+			NOT = { exists = YUG }
+			NOT = { has_global_flag = yugoslavia_formed }
+		}
+
+		allow = {
+			war = no
+			CRO = {
+            all_core = {
+                OR = {
+                    owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }		
+		    }
+			SER = {
+            all_core = {
+                OR = {
+                    owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }		
+		    }
+			BOS = {
+            all_core = {
+                OR = {
+                    owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }		
+		    }
+		}
+
+		effect = {
+			set_global_flag = yugoslavia_formed
+			prestige = 20
+			all_core = { add_core = YUG }
+			SER = { all_core = { add_core = YUG } }
+			MON = { all_core = { add_core = YUG } }
+			CRO = { all_core = { add_core = YUG } }
+			BOS = { all_core = { add_core = YUG } }
+			SLO = { all_core = { add_core = YUG } }
+			add_accepted_culture = serb
+			add_accepted_culture = bosniak
+			add_accepted_culture = croat
+			change_tag = YUG
+			any_country = {
+				limit = {
+					NOT = { is_culture_group = south_slavic }
+					in_sphere = THIS
+					war = no
+					any_owned_province = {
+						OR = {
+							is_core = SER
+							is_core = BOS
+							is_core = CRO
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = SER
+							is_core = BOS
+							is_core = CRO
+						}
+					}
+					secede_province = THIS
+				}
+			}
+			any_country = {
+				limit = {
+					war = no
+					is_culture_group = south_slavic
+					NOT = { tag = ALB }
+					OR = {
+						in_sphere = THIS
+						sphere_owner = { is_sphere_leader_of = THIS }
+						relation = { who = THIS value = 50 }
+					}
+				}
+				country_event = 11108
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+    become_spain = {
+	picture = become_spain
+	    potential = {
+		primary_culture = spanish
+	    NOT = { exists = SPA }
+		NOT = { tag = CNN}
+	    }	
+		
+		allow = {
+		war = no
+		is_vassal = no
+		nationalism_n_imperialism = 1
+		    SPA = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }
+		
+		
+		    }
+		}
+		
+		effect = {
+		prestige = 20 
+		all_core = { remove_core = THIS }
+		change_tag = SPA
+		capital = 487
+		primary_culture = spanish
+		add_accepted_culture = catalan
+		add_accepted_culture = basque	
+        any_country = {
+            limit = {
+			    OR = {
+                    primary_culture = spanish
+					primary_culture = catalan
+					primary_culture = basque
+                }            
+                in_sphere = THIS
+            }
+            country_event = 11101
+        }										
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+}
+
+
+    reclaim_celtic_Union = {
+	picture = form_celtic_union
+        potential = {
+            OR = {
+				tag = IRE
+				tag = SCO
+				tag = WHA
+				tag = COR
+            }
+            NOT = {
+				has_global_flag = Celtic_Union_Formed
+            }
+			OR = {
+				AND = {
+					war = no
+					prestige = 50
+					is_vassal = no
+					is_disarmed = no
+					NOT = {
+					in_sphere = ENG
+					}
+					state_n_government = 1
+					is_greater_power = yes
+					OR = {
+						war_policy = jingoism
+						war_policy = pro_military
+					}
+				}
+				ai = no
+			}
+        }
+		
+        allow = {
+            war = no
+            prestige = 50
+            is_vassal = no
+            is_disarmed = no
+            NOT = {
+            in_sphere = ENG
+            }
+            state_n_government = 1
+            is_greater_power = yes
+            OR = {
+                war_policy = jingoism
+                war_policy = pro_military
+            }
+        }
+		
+        effect = {
+            badboy = 7
+            prestige = 35
+            set_global_flag = Celtic_Union_Formed
+            WHA = {
+                all_core = {
+                    add_core = CLT
+                }
+            }
+
+            IRE = {
+                all_core = {
+                    add_core = CLT
+                }
+            }
+
+            SCO = {
+                all_core = {
+                    add_core = CLT
+                }
+            }
+            COR = {
+                all_core = {
+                    add_core = CLT
+                }
+            }
+            change_tag = CLT			
+            add_accepted_culture = irish
+        }
+		
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+    form_celtic_union = {
+	    picture = form_celtic_union
+	    potential = {
+            OR = {
+				tag = IRE
+				tag = SCO
+				tag = WHA
+				tag = COR
+            }
+            NOT = {
+				has_global_flag = Celtic_Union_Formed
+            }
+			OR = {
+				AND = {
+					war = no
+					prestige = 50
+					is_vassal = no
+					is_disarmed = no
+					NOT = {
+					in_sphere = ENG
+					}
+					state_n_government = 1
+					is_greater_power = yes
+					OR = {
+						war_policy = jingoism
+						war_policy = pro_military
+					}
+				}
+				ai = no
+			}
+        }		
+		
+		allow = {
+		war = no
+		is_vassal = no
+		IRE = {
+            all_core = {
+                OR = {
+                    owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }		
+		    }
+		SCO = {
+            all_core = {
+                OR = {
+                    owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }		
+		    }
+        COR = {
+            all_core = {
+                OR = {
+                    owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }		
+		    }
+        WHA = {
+            all_core = {
+                OR = {
+                    owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }		
+		    }			
+		}	
+		
+		effect = {
+		prestige = 20 
+		all_core = { remove_core = THIS }
+		capital = 263
+		add_accepted_culture = irish
+		WHA = {
+                all_core = {
+                    add_core = CLT
+                }
+            }
+
+        IRE = {
+            all_core = {
+                 add_core = CLT
+            }
+        }
+
+        SCO = {
+            all_core = {
+                add_core = CLT
+            }
+        }
+        COR = {
+            all_core = {
+                add_core = CLT
+            }
+        }
+		304 = { add_core = CLT }
+        any_country = {
+            limit = {
+			    OR = {
+                    primary_culture = irish
+					tag = SCO
+					tag = WHA
+					tag = COR
+                }            
+                in_sphere = THIS
+            }
+            country_event = 11101
+        }							
+		change_tag = CLT			
+		}
+	
+	    ai_will_do = {
+            factor = 1
+        }
+	}	
+		
+	form_portugal = {
+	picture = form_portugal
+	potential = {
+		OR = {
+			tag = ALG
+			tag = DOU
+		} 	
+	}	
+		
+	allow = {
+		war = no
+		is_vassal = no
+		    POR = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                                OR = {
+                                    is_vassal = no
+                                    vassal_of = THIS
+                                }
+                            war = no
+                            is_mobilised = no
+                            is_greater_power = no
+                        }
+                    }
+                }	
+		    }
+		}
+		
+		effect = {
+		prestige = 20 
+		all_core = { remove_core = THIS }
+		change_tag = POR
+		capital = 521
+        any_country = {
+            limit = {
+                primary_culture = portuguese           
+                in_sphere = THIS
+            }
+            country_event = 11101
+        }							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+}
+		
+	unite_turkey = {
+	picture = unite_turkey
+		potential = {
+		NOT = { exists = TUR }
+		primary_culture = turkish	
+        }	
+		
+		allow = {
+			war = no
+			is_vassal = no
+			nationalism_n_imperialism = 1
+				TUR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							AND = {
+                            is_core = PNT
+                            owner = {
+                                NOT = { primary_culture = turkish  }
+                            }
+                            }
+							AND = {
+                            is_core = CLC
+                            owner = {
+                                NOT = { primary_culture = turkish }
+                            }
+                            }
+							owner = {
+								in_sphere = THIS
+									OR = {
+										is_vassal = no
+										vassal_of = THIS
+									}
+								war = no
+								is_mobilised = no
+								is_greater_power = no
+							}
+						}
+					}	
+				}
+			}
+		
+		effect = {
+			prestige = 30
+			all_core = { remove_core = THIS }
+			change_tag = TUR
+			capital = 860
+			any_country = {
+				limit = {
+					primary_culture = turkish          
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+			}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+
+	unite_the_netherlands = {
+	picture = unite_the_netherlands
+		potential = {
+		NOT = { exists = NET }
+		primary_culture = dutch
+        }	
+		
+		allow = {
+			war = no
+			is_vassal = no
+				NET = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+									OR = {
+										is_vassal = no
+										vassal_of = THIS
+									}
+								war = no
+								is_mobilised = no
+								is_greater_power = no
+							}
+						}
+					}	
+				}
+			}
+		
+		effect = {
+			prestige = 15
+			all_core = { remove_core = THIS }
+			change_tag = NET			
+			capital = 377
+			any_country = {
+				limit = {
+					primary_culture = dutch          
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+			}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	form_france = {
+	picture = unite_france
+		potential = {
+		    NOT = { exists = FRA }
+			primary_culture = french	
+        }	
+		
+		allow = {
+		    prestige = 30
+			war = no
+			is_vassal = no
+			nationalism_n_imperialism = 1
+				FRA = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+									OR = {
+										is_vassal = no
+										vassal_of = THIS
+									}
+								war = no
+								is_mobilised = no
+								is_greater_power = no
+							}
+						}
+					}	
+			}
+		}	
+		
+		effect = {
+			prestige = 25
+			all_core = { remove_core = THIS }
+			change_tag = FRA			
+			capital = 425
+			any_country = {
+				limit = {
+					primary_culture = french        
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	unite_belgium = {
+	picture = unite_belgium
+		potential = {
+			OR = {
+			tag = FLA
+			tag = WLL
+			} 	
+        }	
+		
+		allow = {
+		    prestige = 25
+			war = no
+			is_vassal = no
+				BEL = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+									OR = {
+										is_vassal = no
+										vassal_of = THIS
+									}
+								war = no
+								is_mobilised = no
+								is_greater_power = no
+							}
+						}
+					}	
+			}
+		}	
+		
+		effect = {
+			prestige = 13
+			all_core = { remove_core = THIS }
+			change_tag = BEL			
+			capital = 387
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = flemish
+						primary_culture = wallonian
+					}            
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	unite_persia = {
+	picture = unite_persia
+		potential = {
+			OR = {
+				primary_culture = persian
+				culture = persian
+			} 	
+			AND = {
+				NOT = { tag = KHO}
+				NOT = { tag = BLC}
+			}	
+			NOT = { exists = PER}
+        }	
+		
+		allow = {
+		    prestige = 15
+			war = no
+			is_vassal = no
+			nationalism_n_imperialism = 1
+			PER = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}	
+		
+		effect = {
+			prestige = 30
+			all_core = { remove_core = THIS }
+			change_tag = PER			
+			capital = 1121
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = persian
+					}            
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	form_england = {
+	picture = form_england
+		potential = {
+		NOT = { exists = ENL }
+		primary_culture = british
+		NOT = {
+		tag = WHA
+		tag = COR
+		tag = SCO
+		}
+        }	
+		
+		allow = {
+			war = no
+			is_vassal = no
+			nationalism_n_imperialism = 1
+				ENL = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+									OR = {
+										is_vassal = no
+										vassal_of = THIS
+									}
+								war = no
+								is_mobilised = no
+								is_greater_power = no
+							}
+						}
+					}	
+				}
+			}
+		
+		effect = {
+			prestige = 25
+			all_core = { remove_core = THIS }
+			change_tag = ENL			
+			capital = 300
+			any_country = {
+				limit = {
+					primary_culture = british          
+					in_sphere = THIS
+					NOT = {
+					tag = SCO
+					tag = WHA
+					tag = COR
+					}
+				}
+				country_event = 11101
+			}							
+			}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+}
+
+
+	form_ukraine = {
+	picture = form_ukraine
+		potential = {
+		NOT = { exists = UKR }
+		primary_culture = ukrainian
+        }	
+		
+		allow = {
+			war = no
+			is_vassal = no
+			nationalism_n_imperialism = 1
+				UKR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+									OR = {
+										is_vassal = no
+										vassal_of = THIS
+									}
+								war = no
+								is_mobilised = no
+								is_greater_power = no
+							}
+						}
+					}	
+				}
+			}
+		
+		effect = {
+			prestige = 20
+			all_core = { remove_core = THIS }
+			change_tag = UKR			
+			capital = 958
+			any_country = {
+				limit = {
+					primary_culture = ukrainian         
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+			}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+}
+
+	unite_canada = {
+	picture = unite_canada
+		potential = {
+		NOT = { exists = CAN }
+		primary_culture = anglo_canadian
+        }	
+		
+		allow = {
+			war = no
+			is_vassal = no
+			nationalism_n_imperialism = 1
+			any_sphere_member = {
+				primary_culture = anglo_canadian 
+			}
+		}
+
+		effect = {
+			prestige = 20
+			all_core = { remove_core = THIS }
+			change_tag = CAN			
+			capital = 958
+			any_country = {
+				limit = {
+					primary_culture = anglo_canadian        
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+		}
+	}
+
+#	form_egypt = {
+#	picture = form_egypt
+#		potential = {
+#		NOT = { exists = EGY }
+#			OR = {
+#			tag = ALX
+#			tag = CAI
+#			tag = GIZ
+#			tag = LXR
+#			tag = MKU
+#			tag = SNA
+#			tag = SNN
+#			}
+#        }	
+#		
+#		allow = {
+#			war = no
+#			is_vassal = no
+#				EGY = {
+#					all_core = {
+#						OR = {
+#							owned_by = THIS
+#							owner = {
+#								in_sphere = THIS
+#									OR = {
+#										is_vassal = no
+#										vassal_of = THIS
+#									}
+#								war = no
+#								is_mobilised = no
+#								is_greater_power = no
+#							}
+#						}
+#					}	
+#				}
+#			}
+#		
+#		effect = {
+#			prestige = 20
+#			all_core = { remove_core = THIS }
+#			change_tag = EGY			
+#			capital = 1745
+#			any_country = {
+#				limit = {
+#					OR = {
+#						tag = ALX
+#						tag = CAI
+#						tag = GIZ
+#						tag = LXR
+#						tag = MKU
+#						tag = SNN
+#					}
+#					in_sphere = THIS
+#				}
+#				country_event = 11101
+#			}							
+#			}
+#	    
+#		ai_will_do = {
+#            factor = 1
+#        }
+#	}
+#	
+#	form_sokoto = {
+#	picture = form_sokoto
+#		potential = {
+#		NOT = { exists = SOK }
+#			OR = {
+#			tag = BOR
+#			tag = GOB
+#			tag = JUK
+#			tag = KAT
+#			tag = KBO
+#			tag = NUP
+#			}
+#        }	
+#		
+#		allow = {
+#			war = no
+#			is_vassal = no
+#			SOK = {
+#				all_core = {
+#					OR = {
+#						owned_by = THIS
+#						owner = {
+#							in_sphere = THIS
+#								OR = {
+#									is_vassal = no
+#									vassal_of = THIS
+#								}
+#							war = no
+#							is_mobilised = no
+#							is_greater_power = no
+#						}
+#					}
+#				}	
+#			}
+#		}
+#		
+#		effect = {
+#			prestige = 20
+#			all_core = { remove_core = THIS }
+#			change_tag = SOK
+#			capital = 1948
+#			any_country = {
+#				limit = {
+#					OR = {
+#						tag = BOR
+#						tag = GOB
+#						tag = JUK
+#						tag = KAT
+#						tag = KBO
+#						tag = NUP
+#					}      
+#					in_sphere = THIS
+#				}
+#				country_event = 11101
+#			}							
+#			}
+#	    
+#		ai_will_do = {
+#            factor = 1
+#        }
+#	}
+}

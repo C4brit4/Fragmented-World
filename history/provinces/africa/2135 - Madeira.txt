@@ -1,0 +1,6 @@
+owner = MDE
+controller = MDE
+add_core = MDE
+trade_goods = fruit
+life_rating = 35
+naval_base = 1

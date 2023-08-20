@@ -1,0 +1,146 @@
+political_decisions = {
+	
+	form_norway = {
+	picture = form_norway
+		potential = {
+			OR = {
+			tag = OST
+			tag = VES
+			} 	
+        }	
+		
+		allow = {
+			war = no
+			is_vassal = no
+				NOR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								in_sphere = THIS
+									OR = {
+										is_vassal = no
+										vassal_of = THIS
+									}
+								war = no
+								is_mobilised = no
+								is_greater_power = no
+							}
+						}
+					}	
+				}
+			}
+		
+		effect = {
+			prestige = 10
+			all_core = { remove_core = THIS }
+			change_tag = NOR
+			capital = 313
+			any_country = {
+				limit = {
+					primary_culture = norwegian          
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+			}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	form_sweden = {
+	picture = form_sweden
+		potential = {
+			primary_culture = swedish
+        }	
+		
+		allow = {
+			war = no
+			is_vassal = no
+			SWE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			all_core = { remove_core = THIS }
+			change_tag = SWE
+			capital = 313
+			any_country = {
+				limit = {
+					primary_culture = swedish          
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+			}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	form_finland = {
+	picture = form_finland
+		potential = {
+			primary_culture = finnish
+        }	
+		
+		allow = {
+			war = no
+			is_vassal = no
+			FIN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			all_core = { remove_core = THIS }
+			change_tag = FIN
+			capital = 313
+			any_country = {
+				limit = {
+					primary_culture = finnish          
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+			}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+}

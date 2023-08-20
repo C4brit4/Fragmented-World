@@ -1,0 +1,6 @@
+owner = HNN
+controller = HNN
+add_core = HNN
+add_core = CHI
+trade_goods = silk
+life_rating = 32

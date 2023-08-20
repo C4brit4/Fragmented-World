@@ -1,0 +1,7 @@
+owner = THE
+controller = THE
+add_core = THE
+add_core = GRE
+add_core = ALB
+trade_goods = wool
+life_rating = 35

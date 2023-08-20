@@ -1,0 +1,7 @@
+owner = LIM
+controller = LIM
+add_core = PEU
+trade_goods = iron
+life_rating = 35
+
+add_core = LIM

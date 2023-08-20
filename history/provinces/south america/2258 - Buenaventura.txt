@@ -1,0 +1,8 @@
+owner = CAU
+controller = CAU
+add_core = CLM
+add_core = GCO
+trade_goods = fish
+life_rating = 30
+
+add_core = CAU

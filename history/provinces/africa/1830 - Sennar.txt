@@ -1,0 +1,9 @@
+owner = SNN
+controller = SNN
+
+add_core = SHK
+
+trade_goods = cattle
+life_rating = 34
+
+add_core = SNN

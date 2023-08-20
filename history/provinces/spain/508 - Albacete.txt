@@ -1,0 +1,9 @@
+owner = TOL
+controller = TOL
+add_core = SPA
+add_core = VAL
+
+trade_goods = fruit
+life_rating = 35
+
+add_core = TOL

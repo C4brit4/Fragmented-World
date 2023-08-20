@@ -1,0 +1,8 @@
+owner = NRR
+controller = NRR
+
+add_core = SWE
+trade_goods = timber
+life_rating = 35
+
+add_core = NRR

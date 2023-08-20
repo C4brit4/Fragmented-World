@@ -1,0 +1,10 @@
+owner = DUC
+controller = DUC
+
+add_core = GER
+trade_goods = cattle
+life_rating = 40
+fort = 1
+naval_base = 1
+
+add_core = DUC

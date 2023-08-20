@@ -1,0 +1,7 @@
+owner = ZEL
+controller = ZEL
+add_core = ZEL
+add_core = NET
+trade_goods = coal
+life_rating = 35
+terrain = mining_district

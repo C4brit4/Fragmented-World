@@ -1,0 +1,91 @@
+#The Muslim Revolt
+country_event = {
+    id = 98401
+    title = "EVTNAME98401"
+    desc = "EVTDESC98401"
+    picture = "muslim_revolt"
+	
+
+    trigger = {
+        tag = ISR
+        war = no
+		year = 1838
+    }
+    
+	fire_only_once = yes
+
+    option = {
+        name = "EVT984001PTA"
+		ISR = {
+			all_core = {
+			add_core = PLS
+			}
+		}
+		917 = { secede_province = PLS}
+		918 = { secede_province = PLS}
+		920 = { secede_province = PLS}
+		casus_belli = { target = PLS type = civil_war months = 12 }
+		war = {
+			target =  PLS
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+		}
+    }
+	
+	option = {
+        name = "EVT984001PTB"
+		ISR = {
+			all_core = {
+			add_core = JER
+			}
+		}
+		ISR = {
+			all_core = {
+			add_core = PLS
+			}
+		}
+		917 = { secede_province = PLS}
+		918 = { secede_province = PLS}
+		920 = { secede_province = PLS}
+		casus_belli = { target = PLS type = civil_war months = 12 }
+		war = {
+			target = PLS
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+		}
+		change_tag_no_core_switch = JER
+    }
+	
+	option = {
+        name = "EVT984001PTC"
+		ISR = {
+			all_core = {
+			add_core = PLS
+			}
+		}
+		
+		917 = { secede_province = PLS}
+		918 = { secede_province = PLS}
+		920 = { secede_province = PLS}		
+		casus_belli = { target = ISR type = civil_war months = 12 }
+		war = {
+			target = ISR
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+		}
+		change_tag_no_core_switch = PLS
+    }
+}
+

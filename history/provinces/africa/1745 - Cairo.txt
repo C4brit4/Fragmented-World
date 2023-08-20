@@ -1,0 +1,8 @@
+owner = CAI
+controller = CAI
+
+trade_goods = grain
+life_rating = 45
+1861.1.1 = { railroad = 2 }
+
+add_core = CAI

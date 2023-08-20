@@ -1,0 +1,6 @@
+owner = SAM
+controller = SAM
+add_core = SAM
+trade_goods = timber
+terrain = boreal
+life_rating = 10
