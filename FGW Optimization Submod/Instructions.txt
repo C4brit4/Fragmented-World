@@ -1,0 +1,17 @@
+
+
+==Compressed Flag Cache Instalation== 
+
+1 - Install and run FGW normally one time, 
+2 - Copy the "CompressedFlagCache.zip" file from this folder
+3 - Go to your flag cache folder, at "Documents\Paradox Interactive\Victoria II\FGW\gfx\flags"
+4 - Paste the "CompressedFlagCache.zip" file you copied inside said folder
+5 - Unpack the contents of the .zip into the /flags folder, replacing any file
+
+Expect your game to crash at the couple times you start the mod after adding the flags, that's normal, it can happen up to 6 times.
+
+Maybe you think that this is unnecesary, but if you don't have a good pc, the performance improves a lot.
+
+==
+
+I recomend you to put all files of this mod in the fgw folder, but you can also run it selecting the two mods at the same time.
