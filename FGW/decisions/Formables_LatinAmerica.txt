@@ -413,6 +413,116 @@ political_decisions = {
         }	
 	}
 	
+	form_argentina = {
+	picture = form_argentina
+	
+		potential = {
+		    NOT = { exists = ARG }
+			primary_culture = platinean
+			NOT = { tag = MNV }
+        }	
+		
+		allow = {
+		    prestige = 15
+			war = no
+			is_vassal = no
+			ARG = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}	
+		
+		effect = {
+			prestige = 10
+			all_core = { remove_core = THIS }
+			change_tag = ARG	
+			capital = 2348
+			any_country = {
+				limit = {
+					primary_culture = platinean
+					NOT = { tag = MNV }
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}
+	
+	form_chile = {
+	picture = form_chile
+	
+		potential = {
+		    NOT = { exists = CHL }
+			OR = {
+			tag = SNT
+			tag = ATF
+			tag = ARN
+			}
+        }	
+		
+		allow = {
+		    prestige = 15
+			war = no
+			is_vassal = no
+			CHL = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+								OR = {
+									is_vassal = no
+									vassal_of = THIS
+								}
+							war = no
+							is_mobilised = no
+							is_greater_power = no
+						}
+					}
+				}	
+			}
+		}	
+		
+		effect = {
+			prestige = 10
+			all_core = { remove_core = THIS }
+			change_tag = CHL
+			capital = 2324
+			any_country = {
+				limit = {
+					OR = {
+						tag = SNT
+						tag = ATF
+						tag = ARN
+					}
+					in_sphere = THIS
+				}
+				country_event = 11101
+			}							
+		}
+	    
+		ai_will_do = {
+            factor = 1
+        }
+	}	
+	
 	establish_aztec = {
 	picture = aztec_empire	
 		potential = {

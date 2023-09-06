@@ -1,5 +1,7 @@
-owner = CHL
-controller = CHL
+owner = PTG
+controller = PTG
 add_core = CHL
 trade_goods = fruit
 life_rating = 25
+
+add_core = PTG

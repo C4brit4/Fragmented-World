@@ -1,15 +1,9 @@
 
 ##################
-#######1.0########
+#######1.0######## (FINALLY!!!)
 ##################
 
-==Bugs Fixed==
-
 ==Made Ideas==
-
-==Bugs To Fix==
-
-==Ideas To do==
 
 --New Countries--
 
@@ -27,7 +21,7 @@ Fragment Argentina:
 	
 Fragment Chile:
 	Araucania: 2327-2331
-	Easter Island: 2336
+	Rapa Nui: 2336
 	Santiago: 2322-2326
 	
 Fragment Uruguay:
@@ -35,6 +29,11 @@ Fragment Uruguay:
 
 Other:
 	South Athlantic Federation: 2131 2133
+	
+--New Decisions--
+	-Form Chile
+	-Form Argentina
+	
 
 
 ##################

@@ -692,7 +692,6 @@ RGS        = "countries/Rio Grande do Sul.txt"
 SAO        = "countries/Sao Paulo.txt"
 
 #Fragmented World Peru
-ATF        = "countries/Antofagasta.txt"
 ARE        = "countries/Arequipa.txt"
 CAJ        = "countries/Cajamarca.txt"
 CUZ        = "countries/Cuzco.txt"
@@ -715,6 +714,7 @@ SAL        = "countries/Salta.txt"
 SNF        = "countries/Santa Fe.txt"
 
 #Fragmented World Chile
+ATF        = "countries/Antofagasta.txt"
 ARN        = "countries/Araucania.txt"
 EAS        = "countries/Easter Island.txt"
 SNT        = "countries/Santiago.txt"

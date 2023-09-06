@@ -1,5 +1,7 @@
-owner = CHL
-controller = CHL
+owner = SNT
+controller = SNT
 add_core = CHL
 trade_goods = fruit
 life_rating = 35
+
+add_core = SNT

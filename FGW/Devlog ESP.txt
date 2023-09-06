@@ -1,5 +1,40 @@
 
 ##################
+#######1.0######## (POR FIN!!!)
+##################
+
+==Ideas Hechas==
+2366-2367 para Chaco
+
+--Nuevos Countries--
+
+Fragmentar Argentina:
+	Buenos Aires: 2345-2346 2348-2355
+	Cordoba: 2379-2381 2383 2385-2389
+	Corrientes: 2354 2356-2358
+	Entre Rios: 2359-2360
+	La Pampa: 2382 2384 2390 2393 2395
+	Patagonia: 2332-2335 2391-2392 2394 2396-2400
+	Salta: 2315 2368-2378
+	Santa Fe: 2361-2363
+	
+Fragmentar Chile:
+	Araucania: 2327-2331
+	Rapa Nui: 2336
+	Santiago: 2322-2326
+	
+Fragmentar Uruguay:
+	Montevideo: 2344 2347
+
+Otros:
+	South Athlantic Federation: 2131 2133
+
+--Nuevas Decisiones--
+	-Formar Chile
+	-Formar Argentina
+	
+
+##################
 #######0.20#######
 ##################
 

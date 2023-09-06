@@ -1,5 +1,6 @@
-owner = ARG
-controller = ARG
+owner = CRT
+controller = CRT
+add_core = CRT
 add_core = ARG
 trade_goods = cattle
 life_rating = 30

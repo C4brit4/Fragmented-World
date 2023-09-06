@@ -1,5 +1,5 @@
-owner = ARG
-controller = ARG
+owner = SHF
+controller = SHF
 add_core = ARG
 trade_goods = wool
 life_rating = 30
@@ -10,3 +10,5 @@ terrain = new_world_arctic
     remove_core = ARG
     colonial = 0
 }
+
+add_core = SHF
