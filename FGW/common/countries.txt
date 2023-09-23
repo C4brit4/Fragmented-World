@@ -276,10 +276,11 @@ AGO        = "countries/Aragon.txt"
 ANL        = "countries/Andalusia.txt"
 ATU        = "countries/Asturias.txt"
 BSQ        = "countries/Basqueland.txt"
+CAS        = "countries/Castile.txt"
 CNN        = "countries/Cannary Islands.txt"
 EXT        = "countries/Extremadura.txt"
 GLC        = "countries/Galicia.txt"
-LCA        = "countries/Leon-Castille.txt"
+LEO        = "countries/Leon.txt"
 TOL        = "countries/Toledo.txt"
 VAL        = "countries/Valencia.txt"
 
@@ -732,6 +733,7 @@ SHF        = "countries/South Athlantic Federation.txt"
 #==Europe==#
 CLT        = "countries/Celtic Union.txt"
 ENL        = "countries/England.txt"
+LCA        = "countries/Leon-Castille.txt"
 
 #==Middle East==
 KDS        = "countries/Kurdistan.txt"

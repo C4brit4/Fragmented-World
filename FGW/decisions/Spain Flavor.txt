@@ -1,0 +1,146 @@
+political_decisions = {
+
+	union_wth_aragon = {
+	picture = aragon
+	
+		potential = {
+		    NOT = { tag = AGO }
+			OR = {
+				primary_culture = catalan	
+				culture = catalan
+			}
+			AGO = {
+				ai = yes
+			}
+			NOT = { has_country_flag = union_wth_aragon_proposed }
+		}
+		
+		allow = {
+			#war = no
+			#is_vassal = no			
+			#OR = {
+			#	relation = {
+			#		who = AGO
+			#		value = 175
+			#	}
+			#	in_sphere = THIS
+			#}
+			#state_n_government = 1
+		}
+		
+		effect = {
+			#all_core = { add_core = AGO }
+			#all_core = { remove_core = THIS }			
+			#inherit = AGO
+			#change_tag = AGO
+			#capital = 495
+			AGO = {	country_event = 99003 }
+			set_country_flag = union_wth_aragon_proposed
+		}
+		
+		ai_will_do = {
+            factor = 1
+		}		
+	}
+
+	aragon_union_proposals = {
+	picture = aragon
+	
+		potential = {
+		    tag = AGO 
+			NOT = { has_country_flag = aragon_proposed_union }
+		}
+	
+		allow = {
+			#war = no
+			#is_vassal = no			
+			#OR = {
+			#	relation = {
+			#		who = CAT
+			#		value = 175
+			#	}
+			#	in_sphere = THIS
+			#}
+			#OR = {
+			#	relation = {
+			#		who = VAL
+			#		value = 175
+			#	}
+			#	in_sphere = THIS
+			#}			
+			#state_n_government = 1
+		}
+	
+		effect = {
+			CAT = {	country_event = 99000 }
+			VAL = {	country_event = 99000 }
+			set_country_flag = aragon_proposed_union
+		}
+	
+		ai_will_do = {
+            factor = 1
+		}	
+	}
+	
+	union_castile_n_leon = {
+	picture = leon_castile
+	
+		potential = {
+			OR = {
+				tag = CAS 
+				tag = LEO
+			}
+			NOT = { has_country_flag = castile_n_leon_union }
+		}
+	
+		allow = {
+			#war = no
+			#is_vassal = no			
+			#OR = {
+			#	OR = {
+			#		relation = {
+			#			who = CAS
+			#			value = 175
+			#		}
+			#		in_sphere = THIS
+			#	}
+			#	OR = {
+			#		relation = {
+			#			who = LEO
+			#			value = 175
+			#		}
+			#		in_sphere = THIS
+			#	}	
+			#}		
+			#state_n_government = 1
+		}
+	
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						AND = {
+							tag = CAS
+							LEO = { 
+								all_core = { owned_by = THIS}
+							}
+						}
+						AND = {
+							tag = LEO
+							CAS = { 
+								all_core = { owned_by = THIS}
+							}
+						}
+					}
+				}
+				country_event = 99020
+			}	
+			set_country_flag = castile_n_leon_union
+		}
+	
+		ai_will_do = {
+            factor = 1
+		}
+	
+	}
+}

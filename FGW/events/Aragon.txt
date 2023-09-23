@@ -1,0 +1,191 @@
+
+####
+#ARAGON, ID'S FROM 99000  TO 99005
+####
+
+
+#Aragon proposal of union
+country_event = {
+    id = 99000
+    title = "EVTNAME99000"
+    desc = "EVTDESC99000"
+    picture = "crown_of_aragon"
+	
+	is_triggered_only = yes
+
+	#Union Accepted
+    option = {
+        name = "EVT99000OPTA"
+		AGO = { country_event = 99001 }	
+		ai_chance = {
+			factor = 8
+		}
+    }
+	
+	#Union Rejected
+	option = {
+        name = "EVT99000OPTB"
+		relation = {
+			who = FROM
+			value = -100
+		}
+		AGO = { country_event = 99002 }
+		ai_chance = {
+			factor = 2
+		}
+    }
+}
+
+#Country Accept Aragon Proposal
+country_event = {
+    id = 99001
+    title = "EVTNAME99001"
+    desc = "EVTDESC99001"
+    picture = "crown_of_aragon"
+	
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+    option = {
+        name = "EVT99001OPTA"
+		prestige = 5		
+		FROM = {
+			all_core = { add_core = THIS }
+			all_core = { remove_core = FROM }		
+		}
+		THIS = {	
+			inherit = FROM
+		}
+	}
+}
+
+#Country Reject Aragon Proposal
+country_event = {
+    id = 99002
+    title = "EVTNAME99002"
+    desc = "EVTDESC99002"
+    picture = "crown_of_aragon"
+	
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	#War
+    option = {
+        name = "EVT99002OPTA"
+		war = {
+            target = FROM
+            call_ally = no
+            attacker_goal = {
+                casus_belli = conquest
+            }
+        }
+	}
+	
+	#Let it be
+	option = {
+		name = "EVT99002OPTB"
+		prestige = -10
+		any_pop = {
+            militancy = 4
+            dominant_issue = {
+                factor = 0.05
+                value = jingoism
+            }
+        }
+	}
+
+}
+
+#Union proposal to Aragon
+country_event = {
+    id = 99003
+    title = "EVTNAME99003"
+    desc = "EVTDESC99003"
+    picture = "crown_of_aragon"
+	
+	is_triggered_only = yes
+	
+	#Union Accepted
+    option = {
+        name = "EVT99003OPTA"
+		FROM = { country_event = 99004 }	
+		ai_chance = {
+			factor = 8
+		}
+    }
+	
+	#Union Rejected
+	option = {
+        name = "EVT99003OPTB"
+		relation = {
+			who = FROM
+			value = -100
+		}
+		FROM = { country_event = 99005 }
+		ai_chance = {
+			factor = 2
+		}
+    }
+}
+
+#Aragon accepts union proposal
+country_event = {
+    id = 99004
+    title = "EVTNAME99004"
+    desc = "EVTDESC99004"
+    picture = "crown_of_aragon"
+	
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+    option = {
+        name = "EVT99004OPTA"
+		prestige = 10
+		FROM = {
+			all_core = { add_core = THIS }
+			all_core = { remove_core = FROM }		
+		}
+		THIS = {	
+			inherit = FROM
+			change_tag = AGO
+			capital = 495
+		}
+	}
+}
+
+#Aragon rejects union proposal
+country_event = {
+    id = 99005
+    title = "EVTNAME9905"
+    desc = "EVTDESC99005"
+    picture = "crown_of_aragon"
+	
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	#War
+    option = {
+        name = "EVT99005OPTA"
+		war = {
+            target = FROM
+            call_ally = no
+            attacker_goal = {
+                casus_belli = conquest
+            }
+        }
+	}
+	
+	#Let it be
+	option = {
+		name = "EVT99005OPTB"
+		prestige = -5
+		any_pop = {
+            militancy = 2
+            dominant_issue = {
+                factor = 0.05
+                value = jingoism
+            }
+        }
+	}
+
+}

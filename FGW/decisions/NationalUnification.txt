@@ -534,7 +534,6 @@ political_decisions = {
 					NOT = {
 					in_sphere = ENG
 					}
-					state_n_government = 1
 					is_greater_power = yes
 					OR = {
 						war_policy = jingoism

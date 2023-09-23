@@ -1,0 +1,141 @@
+
+####
+#CASTILE AND LEON, ID'S FROM 99020  TO 99030
+####
+
+#Proposal of Castile and Leon union
+country_event = {
+    id = 99020
+    title = "EVTNAME99020"
+    desc = "EVTDESC99020"
+    picture = "castile_leon"
+	
+	is_triggered_only = yes
+
+	#Union Accepted
+    option = {
+        name = "EVT99020OPTA"
+		FROM = { country_event = 99021 }	
+		ai_chance = {
+			factor = 8
+		}
+    }
+	
+	#Union Rejected
+	option = {
+        name = "EVT99020OPTB"
+		relation = {
+			who = FROM
+			value = -100
+		}
+		FROM = { country_event = 99022 }
+		ai_chance = {
+			factor = 2
+		}
+    }
+}
+
+#Country Accept the Proposal
+country_event = {
+    id = 99021
+    title = "EVTNAME99021"
+    desc = "EVTDESC99021"
+    picture = "castile_leon"
+	
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+    option = {
+        name = "EVT99021OPTA"
+		prestige = 5		
+		FROM = {
+			all_core = { add_core = THIS }
+			all_core = { remove_core = FROM }		
+		}
+		THIS = {	
+			inherit = FROM
+		}
+		change_tag = LCA
+		capital = 480
+	}
+}
+
+#Country Reject the Proposal
+country_event = {
+    id = 99022
+    title = "EVTNAME99022"
+    desc = "EVTDESC99022"
+    picture = "castile_leon"
+	
+	is_triggered_only = yes
+	allow_multiple_instances = yes
+	
+	#War
+    option = {
+        name = "EVT99022OPTA"
+		war = {
+            target = FROM
+            call_ally = no
+            attacker_goal = {
+                casus_belli = conquest
+            }
+        }
+	}
+	
+	#Let it be
+	option = {
+		name = "EVT99022OPTB"
+		prestige = -10
+		any_pop = {
+            militancy = 4
+            dominant_issue = {
+                factor = 0.05
+                value = jingoism
+            }
+        }
+	}
+
+}
+
+#Act of Union
+country_event = {
+    id = 99023
+    title = "EVTNAME99023"
+    desc = "EVTDESC99023"
+    picture = "castile_leon"
+	
+	trigger = {
+		OR = {
+			tag = CAS
+			tag = LEO
+		}
+		CAS = {
+			all_core = {
+				owned_by = THIS
+			}
+		}
+		LEO = {
+			all_core = {
+				owned_by = THIS
+			}
+		}
+	}
+	allow_multiple_instances = yes
+	
+	#The Kingdom will revive
+    option = {
+        name = "EVT99023OPTA"
+		prestige = 10		
+		CAS = {
+			all_core = { add_core = LCA }
+			all_core = { remove_core = CAS }		
+		}
+		LEO = {
+			all_core = { add_core = LCA }
+			all_core = { remove_core = LEO }		
+		}
+		change_tag = LCA
+		capital = 480
+	}
+
+}
