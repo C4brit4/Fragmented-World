@@ -16,16 +16,16 @@ political_decisions = {
 		}
 		
 		allow = {
-			#war = no
-			#is_vassal = no			
-			#OR = {
-			#	relation = {
-			#		who = AGO
-			#		value = 175
-			#	}
-			#	in_sphere = THIS
-			#}
-			#state_n_government = 1
+			war = no
+			is_vassal = no			
+			OR = {
+				relation = {
+					who = AGO
+					value = 175
+				}
+				in_sphere = THIS
+			}
+			state_n_government = 1
 		}
 		
 		effect = {
@@ -52,23 +52,23 @@ political_decisions = {
 		}
 	
 		allow = {
-			#war = no
-			#is_vassal = no			
-			#OR = {
-			#	relation = {
-			#		who = CAT
-			#		value = 175
-			#	}
-			#	in_sphere = THIS
-			#}
-			#OR = {
-			#	relation = {
-			#		who = VAL
-			#		value = 175
-			#	}
-			#	in_sphere = THIS
-			#}			
-			#state_n_government = 1
+			war = no
+			is_vassal = no			
+			OR = {
+				relation = {
+					who = CAT
+					value = 175
+				}
+				in_sphere = THIS
+			}
+			OR = {
+				relation = {
+					who = VAL
+					value = 175
+				}
+				in_sphere = THIS
+			}			
+			state_n_government = 1
 		}
 	
 		effect = {
